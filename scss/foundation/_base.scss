@@ -1,0 +1,20 @@
+$btn-bg-color: #F0DE00;
+$btn-text-color: #080808;
+$input-span-color: #989898;
+
+@mixin pc {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+body {
+  font-size: 15px;
+  font-family: Yu Gothic UI;
+}

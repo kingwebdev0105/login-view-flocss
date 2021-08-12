@@ -1,0 +1,30 @@
+.c-button {
+
+  background-color: $btn-bg-color;
+  height: 74px;
+  border: white 2px solid;
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 32px;
+  color: $btn-text-color;
+
+  &__camera {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    left: 63.79%;
+    top: 31.18%;
+    padding: 11px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+  }
+
+  @include sp {
+    font-size: 15px;
+    padding: 13px 30px;
+  }
+}

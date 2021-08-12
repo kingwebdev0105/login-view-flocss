@@ -1,0 +1,18 @@
+.p-login {
+
+  &__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    @include pc {
+      padding: 155px 235px;
+    }
+
+    @include sp {
+      padding: 0 24px;
+    }
+  }
+}

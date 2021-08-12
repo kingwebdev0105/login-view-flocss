@@ -1,0 +1,13 @@
+.c-title {
+  
+  font-style: normal;
+  font-weight: bold;
+  line-height: 31px;
+  text-align: center;
+  color: $btn-text-color;
+
+  @include sp {
+      padding-top: 43px;
+      font-size: 23px;
+  }
+}
